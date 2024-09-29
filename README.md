@@ -10,16 +10,9 @@ A full-stack application for managing queues of messages with a REST API backend
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-## Features
-
-- **POST /api/{queue_name}:** Add a new message to a specified queue.
-- **GET /api/{queue_name}?timeout={ms}:** Retrieve the next message from the queue, with optional timeout support.
-- **Queue Overview:** The frontend displays all available queues and the number of messages in each queue.
+- ### `POST /api/{queue_name}:` Add a new message to a specified queue.
+- ### `GET /api/{queue_name}?timeout={ms}:` Retrieve the next message from the queue, with optional timeout support.
+- ### `GET /api/queues_details:` The frontend displays all available queues and the number of messages in each queue.
 - **Fetch Next Message:** Select a queue, click ‘Fetch Next Message,’ and see the response.
 
 ## Technologies Used
